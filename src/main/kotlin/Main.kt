@@ -8,7 +8,6 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonObject
 import java.lang.Thread.sleep
 import java.time.LocalTime
-import kotlin.math.min
 
 fun main() {
     val client = OkHttpClient()
